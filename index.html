@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="INS 315 GRP 8 PROJECT">
+	  <meta name="keywords" content="Booking Website">
+  	<meta name="author" content="Group 8">
+    <title> Flight Booking Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img src="img/plane_logo.png" alt="logo">
+          <span>shollysflight</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    
+    <section id="showcase">
+        <div class="container">
+          <h1>WHERE WOULD YOU LIKE TO GO?</h1>
+          <p>Discover and book amazing travel at exclusive prices</p>
+          <div class="damn">
+          <img src="img/arrow.png" alt="plane"> 
+          <a href="#">Explore Now</a>
+        </div>
+        </div>
+      </section>
+
+  <section class="search">
+    <div class="search-container">
+      <h1>Book Your Flight</h1>
+      <form class="search-form">
+          <div class="form-group">
+              <label for="origin">Origin</label>
+              <input type="text" id="origin" name="origin" placeholder="Enter city or airport" required>
+          </div>
+          <div class="form-group">
+              <label for="destination">Destination</label>
+              <input type="text" id="destination" name="destination" placeholder="Enter city or airport" required>
+          </div>
+          <div class="form-group">
+              <label for="departure-date">Departure Date</label>
+              <input type="date" id="departure-date" name="departure-date" required>
+          </div>
+          <div class="form-group">
+              <label for="return-date">Return Date</label>
+              <input type="date" id="return-date" name="return-date">
+          </div>
+          <div class="form-group">
+              <label for="passengers">Passengers</label>
+              <select id="passengers" name="passengers" required>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+              </select>
+          </div>
+          <button type="submit" class="search-button">Search Flights</button>
+      </form>
+  </div>
+  </section>
+
+  <section class="pros">
+    <div class="pros-container">
+      <div class="pros-item">
+        <img src="img/plane_ticket.png" alt="Image 1">
+        <span>
+          <h3>Exclisive Travel Offer</h3>
+          <p>Huge numbers of airlines avaliable for you</p>
+        </span>
+      </div>
+      <div class="pros-item">
+        <img src="img/bars_chart.png" alt="Image 2">
+        <span>
+          <h3>Compare & book</h3>
+          <p>Compare the lowest prices and book</p>
+        </span>
+      </div>
+      <div class="pros-item">
+        <img src="img/money_bag.png" alt="Image 3">
+        <span>
+          <h3>Save Your Money</h3>
+          <p>Save up to 70% on flight</p>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Information Systems Students Group 8, Copyright &copy; 2024</p>
+  </footer>
